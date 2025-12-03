@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Contact Us</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+  
+       #Logo{
+        height: 80px;
+        width: 80px;
+       }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/8b5611eb-ff3a-407f-9adc-e116a23373fc/OBMC+LOGO+2024-04.png" alt="logo" id="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="page2.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="page3.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="page4.html">Enroll</a></li>
+          <li class="nav-item"><a class="nav-link active" href="page5.html">Contact Us</a></li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-dark" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header class="py-5">
+    <div class="container">
+      <h1 class="fw-bold text-blue">Contact OBMC</h1>
+      <p class="lead text-dark mb-0">We’d love to hear from you. Send us a message or check our schedule below.</p>
+    </div>
+  </header>
+
+  <main class="container my-4">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <h2 class="h4 bg-white d-inline-block px-3 py-2 rounded shadow-sm">Contact Us Form</h2>
+        <form class="bg-light p-4 rounded shadow mt-2">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Subject</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="5" required></textarea>
+          </div>
+          <div class="d-flex gap-2">
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <button class="btn btn-warning text-dark" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-6">
+        <h2 class="h4 bg-white d-inline-block px-3 py-2 rounded shadow-sm">School Info</h2>
+        <div class="bg-light p-4 rounded shadow mt-2">
+          <p class="mb-1"><strong>Address:</strong> Fill in campus address</p>
+          <p class="mb-1"><strong>Phone:</strong> Fill in contact number</p>
+          <p class="mb-3"><strong>Email:</strong> info@example.com</p>
+
+          <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+              <thead class="table-primary">
+                <tr><th>Day</th><th>Hours</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Monday - Friday</td><td>7:30 AM – 5:00 PM</td></tr>
+                <tr><td>Saturday</td><td>9:00 AM – 12:00 PM</td></tr>
+                <tr><td>Sunday</td><td>Closed</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
